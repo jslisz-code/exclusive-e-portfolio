@@ -222,10 +222,10 @@ PROJECTS
 
 .project__wrapper:hover .project__description {
   opacity: 1;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
-.project__wrapper:hover .project__img{
+.project__wrapper:hover .project__img {
   transform: scale(1.07);
   filter: blur(5px);
 }
@@ -236,7 +236,9 @@ PROJECTS
   left: 90px;
   transform: translateY(100%);
   opacity: 0;
-  transition: opacity 300ms, transform 450ms ease;
+  transition:
+  opacity 300ms,
+  transform 450ms ease;
   color: white;
   max-width: 550px;
 }
