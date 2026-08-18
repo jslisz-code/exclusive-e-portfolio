@@ -64,7 +64,7 @@ section {
 }
 
 .link__hover-effect {
-  postion: relative;
+  position: relative;
 }
 
 .link__hover-effect:after {
