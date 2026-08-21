@@ -1,6 +1,6 @@
-// template_fn4ju5w
-// service_2nzn82d
-// 0MntK4mGe_GXhM3kA
+//
+//
+//
 
 function contact(event) {
   event.preventDefault();
@@ -13,10 +13,12 @@ function contact(event) {
       "template_fn4ju5w",
       event.target,
       "0MntK4mGe_GXhM3kA",
-    ).then(() => {
+    )
+    .then(() => {
       loading.classList.remove("modal__overlay--visible");
       success.classList += " modal__overlay--visible";
-    }).catch(() => {
+    })
+    .catch(() => {
       loading.classList.remove("modal__overlay--visible");
       alert(
         "the email service is temporarily unavailable. Please contact me directly via email at jslisz.code@outlook.com",
