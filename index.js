@@ -13,8 +13,7 @@ function contact(event) {
       "template_fn4ju5w",
       event.target,
       "0MntK4mGe_GXhM3kA",
-    )
-    .then(() => {
+    ).then(() => {
       loading.classList.remove("modal__overlay--visible");
       success.classList += " modal__overlay--visible";
     }).catch(() => {
