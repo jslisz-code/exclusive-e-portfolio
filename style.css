@@ -8,6 +8,10 @@
   z-index: 1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style-type: none;
 }

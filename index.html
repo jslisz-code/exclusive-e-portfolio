@@ -37,11 +37,9 @@
             >
           </li>
           <li class="nav__link">
-            <a
-              href="projects"
+            <a href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Projects</a
-            >
+              >Projects</a>
           </li>
           <li class="nav__link" onclick="toggleModal()">
             <a
@@ -93,9 +91,11 @@
           </div>
         </div>
       </header>
+      <a href="#">
       <button class="mail__btn click" onclick="toggleModal()">
         <i class="fa-solid fa-envelope"></i>
       </button>
+    </a>
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
@@ -190,7 +190,7 @@
       <img src="./assets/circle.svg" class="shape shape--7">
       <img src="./assets/semi circle.svg" class="shape shape--8">
     </section>
-    <section id="projcets">
+    <section id="projects">
       <div class="container">
         <div class="row">
           <h1 class="section__title">
@@ -261,7 +261,7 @@
               LinkedIn
             </a>
             <a
-              href="#"
+              href="#" onclick="toggleModal()"
               class="footer__social--link link__hover-effect link__hover-effect--white"
             >
               Contact
